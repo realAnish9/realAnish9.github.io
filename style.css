@@ -1,0 +1,141 @@
+body
+{
+    margin:0;
+    padding:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#header
+{
+    /*background-clip: border-box;
+    background-image:url(image2.jpeg);
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+    background-attachment:scroll;*/
+}
+
+.user-box
+{
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position: absolute;
+}
+.user-box img
+{
+    height:40vh;
+    background-blend-mode: color;
+    border-radius: 90%;
+    border:2px black;
+}
+.user-box h1
+{
+    color: #ffffff;
+    font-weight:bolder;
+    margin: 10px;
+}
+.user-box p
+{
+    color:#ffffff;
+}
+
+/*----ABOUT----*/
+.about
+{
+    padding-top:100px;
+    padding-bottom:50px;
+
+}
+.profile-img
+{
+    height: 300px;
+}
+.nav-bar
+{
+    top:0;
+    position: -webkit-sticky;
+    z-index: 2;
+}
+
+.navbar
+{
+    background-color:black;
+}
+
+.nav-bar img
+{
+    height:50px;
+}
+
+.nav-bar .fa-bars
+{
+    font: size 35px;
+    color:white;
+}
+
+.navbar-nav
+{
+    float:right;
+    text-align: right;
+}
+.nav-link
+{
+    color:wheat !important;
+}
+
+/*-----Contact-----*/
+.contact
+{
+    padding: top 50px;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(back.jpg);
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    color:#ffffff
+}
+
+.contact .row
+{
+    padding:30px 0;
+    font-size:22px;
+}
+
+.contact .col-md-4 .fa
+{
+    padding:10px;
+    font: size 40px;
+}
+
+.social-icons
+{
+    top:50%;
+    transform:translateY(-50%);
+    position:sticky;
+    z-index:1;
+    width:80px;
+}
+.social-icons ul
+{
+    padding:initial;
+}
+.social-icons ul li
+{
+    height:40px;
+    width:40px;
+    list-style-type: none;
+    padding-left:12px;
+    padding-top:6px;
+    margin-top:5px;
+    columns: #ffffff;
+    background: #000000;
+}
+
+.social-icons ul li:hover
+{
+    padding-left:30px;
+    width:80px;
+    transition:1s;
+}
+
+
+
