@@ -29,14 +29,14 @@ body
 
 .user-box
 {
-    top:50%;
+    top:40%;
     left:50%;
     transform:translate(-50%,-50%);
     position: absolute;
 }
 .user-box img
 {
-    height:40vh;
+    height:30vh;
     background-blend-mode: color;
     border-radius: 90%;
     border:2px black;
@@ -158,6 +158,47 @@ body
 .skills-bar
 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 600;
 }
 
+.resume
+{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: #ffffff;
+}
+
+.resume h1
+{
+    margin-bottom: 50px;
+    font-size:50px ;
+}
+
+
+.timeline::before
+{
+    content: '';
+    display:inline-block;
+    background: #ffffff;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100px;
+    z-index: 1;
+}
+
+.timeline li
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background:	#303030;
+}
+
+.timeline li h3
+{
+    background-color: #ffffff;
+    padding: 5px 0 5px 20px;
+    column-rule-color: #000000;
+    font-size: 30px;
+    color: black;
+}
