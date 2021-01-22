@@ -158,12 +158,14 @@ body
 .skills-bar
 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom:0px;
+    padding-top: 0px;
 }
 
 .resume
 {
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding-top: 0px;
+    padding-bottom:0px;
     color: #ffffff;
 }
 
@@ -216,3 +218,166 @@ body
     height: 20px;
     z-index:1 ;
 }
+
+/*-----Projects-------*/
+.projects
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #ffffff;
+}
+
+
+/*.container 
+{
+    width:1000px;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+}*/
+
+.card
+{
+    position: relative;
+    left: -6%;
+    width:300px;
+    height: 370px;
+    transition: 0.3s ease-out;
+    box-shadow:0 3px 15px rgba(0,0,0,0.7) ;
+}
+
+.card .imgbox
+{
+    position: relative;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card .imgbox img
+{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 80%;
+    display: block;
+    transition: 0.5s;    
+}
+
+.wrapper
+{
+    display: flex;
+    width: 70%;
+    justify-content:space-around;
+    padding-bottom: 20px;
+    align-items: center;
+    /*padding-left: 33%;*/
+    /*flex-direction: row;*/
+    /*padding-left: 30%;*/
+}
+
+.card
+{
+    width:280px;
+    height: 360px;
+    padding: 2rem 1rem;
+    background:#fff ;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0px 7px 10px rgba(118, 204, 238, 0.5);
+    transition: 0.5s ease-in-out;
+    justify-content:center;
+    margin-right: 40px;
+}
+
+.card:hover{
+    transform: translateY(20px);
+}
+.card::before
+{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom,rgba(0,176,155,0.5),rgba(0,201,61,1));
+    z-index: 2;
+    transition: 0.5s all;
+    opacity: 0;
+}
+
+.card:hover:before
+{
+    opacity: 1;
+}
+
+.card img
+{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.card .info
+{
+    position: relative;
+    z-index: 3;
+    color:beige;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s all;
+}
+
+.card:hover .info
+{
+    opacity: 1;
+    transform:translateY(0px);
+}
+
+.card .info h1
+{
+    margin: 0;
+    opacity: 0.5;
+}
+
+.card .info p
+{
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top:8px;
+    margin-bottom: 20px;
+}
+
+.card .info .btn
+{
+    text-decoration: dotted;
+    padding: 0.5rem 1rem;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.card .info .btn:hover
+{
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+    
+}
+
+.wrapper
+{
+    width: 841px;
+    margin: 0 auto;
+}
+
+

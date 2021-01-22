@@ -2,6 +2,7 @@
 <head>
 <title>Anish Thakur</title>
     <link href="style.css" rel="stylesheet" type="text/css">
+
     <!-- CSS only -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
@@ -11,45 +12,47 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+
+
 </head>
 <body style="background-color:#222831;">
     <!--Header-->
         <!--NAVIGATION BAR-->
     <section id="user-info">
         <div class="nav-bar">
-        <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="#"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fa fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#top">HOME</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#about">ABOUT ME</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="https://drive.google.com/file/d/1fLrClI_wLMOMPjYNdLbEsA6qoXcccXgF/view?usp=sharing">RESUME <i class="fa fa-download"></i></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#contact">CONTACT</a>
-                </li>
-              </ul>
-            </div>
-        </nav>
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#top">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#about">ABOUT ME</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="https://drive.google.com/file/d/1fLrClI_wLMOMPjYNdLbEsA6qoXcccXgF/view?usp=sharing">RESUME <i class="fa fa-download"></i></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+                </div>
+            </nav>
         </div>
     <section id="header">
         <video id="vid" autoplay loop muted >
            <source src="videoplayback.mp4" type="video/mp4" >
         </video>
         <div class="container text-center">
-        <div class="user-box">
-        <img src="image.jpg">
-        <h1>Anish Thakur</h1>
-        <p>Computer Science Undergraduate</p> 
-        </div> 
+            <div class="user-box">
+                <img src="image.jpg">
+                <h1>Anish Thakur</h1>
+                <p>Computer Science Undergraduate</p> 
+            </div> 
         </div>
     </section>
 
@@ -158,7 +161,7 @@
 
     <!---Resume-->
     <div class=resume id="resume">
-        <div class="container">
+        <div class="container" id="abc">
             <div class="row">
                 <div class="col-md-6">
                     <h1 class="text-center">Education</h1>
@@ -213,7 +216,85 @@
     </div>
 
     <!---My Projects-->
+    <!--<div class="projects" id="projects">
+        <div class="container">
+            <h1 class="text-center">My projects</h1>
+            <p class="text-center">ajshajhajshajhs</p>
+            <div class="row">
+                <div class="card-deck mb-3 text-center">
+                    <div class="card mb-4 shadow-sm zoom">
+                        <img src="Fin Calc.jpg" width=300px height=300px><span>Android Studio</span>
+                        <p>Hello World</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="projects-box">
+                        <i class="fa fa-android"></i><span>Android Studio</span>
+                        <p>Hello World</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="projects-box">
+                        <i class="fa fa-database"></i><span>Android Studio</span>
+                        <p>Hello World</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+-->
+
+<!--
+<div class="projects" id="projects">
+    <div class="container">
+        <h1 class="text-center">My projects</h1>
+        <div class="card">
+            <div imgbox>
+                <img src="Fin Calc.jpg"  width=300px height=300px alt="Fin Calc">
+            </div>
+            <div class="content">
+            <h2>Fin Calc</h2>
+            <p style="color:black">gykjhakskadhkahsdkahd</p>
+        </div>
+    </div>
+</div>
+-->
+
+<h1 style="color:white;" class="text-center">My projects</h1>
+    <div class="wrapper">
+        <div class="card">
+            <img src="Fin Calc.jpg">
+            <div class="info">
+                <h1>Fin Calc</h1>
+                <p>Android based financial calculator which can also handle some unit conversion</p>
+                <a href="https://github.com/unique-k/firsttry"  target="_blank" rel="noopener noreferrer" class="btn">More Info</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="rental.jpg">
+            <div class="info">
+                <h1>Car Rental DBMS</h1>
+                <p>Used SQL and python to simulate Car Rental Database Management System</p>
+                <a href="#" class="btn">More Info</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="kinbech.jpg">
+            <div class="info">
+                <h1>Kin Bech</h1>
+                <p>Attemp to make an Android app that will help it's user trade books </p>
+                <a href="#" class="btn">More Info</a>
+            </div>
+        </div>
+    </div>
+
+
+
     
+
+    
+
+
 
     <!---Contact-->
     <div class="contact" id="contact"> 
