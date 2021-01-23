@@ -369,12 +369,12 @@ body
     font-weight: bold;
     cursor: pointer;
     transition: 0.4s ease-in-out;
+    margin-bottom: 2px;
 }
 
 .card .info .btn:hover
 {
     box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
-    
 }
 
 .wrapper
