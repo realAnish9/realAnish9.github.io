@@ -10,7 +10,8 @@ body
     z-index:-1;
 
 }
-@media(min-aspect-ratio:16/9)
+
+/*@media(min-aspect-ratio:16/9)
 {
     #vid
     {
@@ -25,10 +26,8 @@ body
         width: 100%;
         height: auto;
     }
-    #img {
-        width: 100%;
-      }
-}
+
+}*/
 
 .user-box
 {
@@ -39,9 +38,8 @@ body
 }
 .user-box img
 {
-    width: 50%;
-    height: auto;
-    /*height:30vh;*/
+    /*width: 100%;*/
+    height:30vh;
     background-blend-mode: color;
     border-radius: 90%;
     border:2px black;
